@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/fixedLayout">
+
+        <RelativeLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+        <!-- First layout -->
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/shape1"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/u1"
+                android:scaleType="fitCenter"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Jagdish Traders"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Name: Jagdish"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Contact No: 8073337847"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Location: Piryapatna"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/clickHereText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Click Here"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#007AFF"
+                    android:textSize="16sp"/>
+
+                <ImageView
+                    android:id="@+id/whatsappImage1"
+                    android:layout_width="44dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/whatsapp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Second layout -->
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/shape1"
+            android:padding="16dp"
+            android:layout_below="@id/layout1"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/u2"
+                android:scaleType="fitCenter"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Mohan Traders"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Name: Mohan"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Contact No: 9854256974"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Location: Madikeri"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/clickHereText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Click Here"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#007AFF"
+                    android:textSize="16sp"/>
+
+                <ImageView
+                    android:id="@+id/whatsappImage2"
+                    android:layout_width="44dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/whatsapp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Third layout -->
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/shape1"
+            android:padding="16dp"
+            android:layout_below="@id/layout2"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/u3"
+                android:scaleType="fitCenter"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Ashok Traders"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Name: Ashok"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Contact No: 9480756541"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Location: Siddapura"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/clickHereText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Click Here"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#007AFF"
+                    android:textSize="16sp"/>
+
+                <ImageView
+                    android:id="@+id/whatsappImage3"
+                    android:layout_width="44dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/whatsapp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Fourth layout -->
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/shape1"
+            android:padding="16dp"
+            android:layout_below="@id/layout3"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/u4"
+                android:scaleType="fitCenter"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Lakshmi Traders"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Name: Lakshmi"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Contact No: 8971154753"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Location: Shakleshpura"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/clickHereText4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Click Here"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#007AFF"
+                    android:textSize="16sp"/>
+
+                <ImageView
+                    android:id="@+id/whatsappImage4"
+                    android:layout_width="44dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/whatsapp" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/shape1"
+                android:padding="16dp"
+                android:layout_below="@id/layout4"
+                android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/u1"
+                android:scaleType="fitCenter"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Sajan Traders"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Name: Sajan"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Contact No: 8975898753"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Location: Mysore"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/clickHereText5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Click Here"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#007AFF"
+                    android:textSize="16sp"/>
+
+                <ImageView
+                    android:id="@+id/whatsappImage5"
+                    android:layout_width="44dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/whatsapp" />
+
+
+
+            </LinearLayout>
+            </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+    <RelativeLayout
+        android:id="@+id/fixedLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white">
+
+        <!-- First ImageView and TextView -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="100dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/home1"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:src="@drawable/home"/>
+
+            <TextView
+                android:id="@+id/homeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"/> <!-- Adding margin between ImageView and TextView -->
+        </LinearLayout>
+
+        <!-- Second ImageView and TextView -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="100dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/about"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:src="@drawable/about"/>
+
+            <TextView
+                android:id="@+id/aboutText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"/> <!-- Adding margin between ImageView and TextView -->
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
+
+

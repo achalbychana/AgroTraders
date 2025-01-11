@@ -1,0 +1,11 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- Other style attributes -->
+        <item name="popupTheme">@style/AppTheme.PopupOverlay</item>
+    </style>
+
+    <!-- Style for pop-up overlay -->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
